@@ -1,0 +1,16 @@
+/home/kesquerra/Programming/dungeon_crawler/bin/Debug/net5.0/dungeon_crawler
+/home/kesquerra/Programming/dungeon_crawler/bin/Debug/net5.0/dungeon_crawler.deps.json
+/home/kesquerra/Programming/dungeon_crawler/bin/Debug/net5.0/dungeon_crawler.runtimeconfig.json
+/home/kesquerra/Programming/dungeon_crawler/bin/Debug/net5.0/dungeon_crawler.runtimeconfig.dev.json
+/home/kesquerra/Programming/dungeon_crawler/bin/Debug/net5.0/dungeon_crawler.dll
+/home/kesquerra/Programming/dungeon_crawler/bin/Debug/net5.0/ref/dungeon_crawler.dll
+/home/kesquerra/Programming/dungeon_crawler/bin/Debug/net5.0/dungeon_crawler.pdb
+/home/kesquerra/Programming/dungeon_crawler/obj/Debug/net5.0/dungeon_crawler.csproj.AssemblyReference.cache
+/home/kesquerra/Programming/dungeon_crawler/obj/Debug/net5.0/dungeon_crawler.GeneratedMSBuildEditorConfig.editorconfig
+/home/kesquerra/Programming/dungeon_crawler/obj/Debug/net5.0/dungeon_crawler.AssemblyInfoInputs.cache
+/home/kesquerra/Programming/dungeon_crawler/obj/Debug/net5.0/dungeon_crawler.AssemblyInfo.cs
+/home/kesquerra/Programming/dungeon_crawler/obj/Debug/net5.0/dungeon_crawler.csproj.CoreCompileInputs.cache
+/home/kesquerra/Programming/dungeon_crawler/obj/Debug/net5.0/dungeon_crawler.dll
+/home/kesquerra/Programming/dungeon_crawler/obj/Debug/net5.0/ref/dungeon_crawler.dll
+/home/kesquerra/Programming/dungeon_crawler/obj/Debug/net5.0/dungeon_crawler.pdb
+/home/kesquerra/Programming/dungeon_crawler/obj/Debug/net5.0/dungeon_crawler.genruntimeconfig.cache
