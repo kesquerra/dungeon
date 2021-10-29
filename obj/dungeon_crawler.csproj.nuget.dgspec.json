@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/kesquerra/Programming/dungeon_crawler/dungeon_crawler.csproj": {}
+    "/home/kesquerra/Projects/dungeon/dungeon_crawler.csproj": {}
   },
   "projects": {
-    "/home/kesquerra/Programming/dungeon_crawler/dungeon_crawler.csproj": {
+    "/home/kesquerra/Projects/dungeon/dungeon_crawler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kesquerra/Programming/dungeon_crawler/dungeon_crawler.csproj",
+        "projectUniqueName": "/home/kesquerra/Projects/dungeon/dungeon_crawler.csproj",
         "projectName": "dungeon_crawler",
-        "projectPath": "/home/kesquerra/Programming/dungeon_crawler/dungeon_crawler.csproj",
+        "projectPath": "/home/kesquerra/Projects/dungeon/dungeon_crawler.csproj",
         "packagesPath": "/home/kesquerra/.nuget/packages/",
-        "outputPath": "/home/kesquerra/Programming/dungeon_crawler/obj/",
+        "outputPath": "/home/kesquerra/Projects/dungeon/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/kesquerra/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,20 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "RLNET": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "RogueSharp": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.5.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -52,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
         }
       }
     }
