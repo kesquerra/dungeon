@@ -2,6 +2,8 @@ using RLNET;
 
 namespace Dungeon.Core {
     public class Colors {
+        public static RLColor Player = Swatch.DbLight;
+
         public static RLColor FloorBackground = RLColor.Black;
         public static RLColor Floor = Swatch.AlternateDarkest;
         public static RLColor FloorBackgroundFov = Swatch.DbDark;

@@ -4635,7 +4635,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "RLNET >= *",
-      "RogueSharp >= 4.2.0",
+      "RogueSharp >= *",
       "System.Drawing.Common >= 4.5.2"
     ]
   },
@@ -4682,7 +4682,7 @@
           },
           "RogueSharp": {
             "target": "Package",
-            "version": "[4.2.0, )"
+            "version": "[*, )"
           },
           "System.Drawing.Common": {
             "target": "Package",

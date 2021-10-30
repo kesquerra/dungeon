@@ -44,7 +44,7 @@
             },
             "RogueSharp": {
               "target": "Package",
-              "version": "[4.2.0, )"
+              "version": "[*, )"
             },
             "System.Drawing.Common": {
               "target": "Package",
