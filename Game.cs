@@ -1,7 +1,9 @@
-﻿using RLNET;
+﻿using System;
+using RLNET;
+using RogueSharp.Random;
 using Dungeon.Core;
 using Dungeon.Systems;
-using System;
+
 
 namespace Dungeon
 {
@@ -34,13 +36,17 @@ namespace Dungeon
         private static readonly int _invHeight = 11;
         private static RLConsole _invConsole;
 
-        public static Player Player {get; private set;}
+        public static Player Player {get; set;}
         public static DungeonMap DungeonMap {get; private set;}
+        public static IRandom Random {get; private set;}
         
         public static void Main()
         {
+            int seed = (int) DateTime.UtcNow.Ticks;
+            Random = new DotNetRandom(seed);
+
             string fontFileName = "terminal8x8.png";
-            string consoleTitle = "Roguelike";
+            string consoleTitle = "Roguelike - Seed {seed}";
             
             CommandSystem = new CommandSystem();
             // Init all consoles
@@ -63,8 +69,7 @@ namespace Dungeon
             _invConsole.Print(1, 1, "Inventory", Colors.TextHeading);
 
 
-            Player = new Player();
-            MapGenerator mapGenerator = new MapGenerator(_mapWidth, _mapHeight);
+            MapGenerator mapGenerator = new MapGenerator(_mapWidth, _mapHeight, 20, 13, 7);
             DungeonMap = mapGenerator.CreateMap();
             DungeonMap.UpdatePlayerFieldOfView();
             
